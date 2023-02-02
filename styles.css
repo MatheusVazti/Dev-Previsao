@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    background-image: url("https://source.unsplash.com/1850x900/");
+    
+}
+
+.Container-maior{
+    background-color:#000000 ; /* trocar cor de fundo */
+
+    width: 95%; /* Largura do elemento*/
+    max-width: 420px; /* largura maxima*/
+    opacity: 0.8; /* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+   
+}
+
+input{
+    border: none;/*borda do elemento */
+    outline: none;/* borda quando seleciona o elemento */
+    padding: 10px; /* espaçamento interno*/
+    border-radius: 24px; /* arredonda mento da borda*/
+    font-size: 20px;
+    color: white;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #7c7c7c6b;
+
+}
+
+button img{
+   
+    height: 22px;
+}
+
+.Container-media{
+    margin-top: 30px;
+
+}
+
+h2{
+    color: #ffffff;
+    font-size: 25px; /* tamanho do texto */
+    margin-top: 30px;
+    
+
+}
+.temp{
+    color: #ffffff; /* cor do texto */ 
+    margin-top: 30px;
+}
+.descricao{
+    color: #ffffff;
+    margin: 30px 0  30px 0;
+}
+.humidade{
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+    
+    
+
+
