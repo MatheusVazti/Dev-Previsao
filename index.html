@@ -10,21 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
     <title>Dev Previsão</title>
 </head>
 
 <body>
     <div class="Container-maior">
-        <input placeholder="Digite o nome da cidade">
-        <button>
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button onclick="cliqueiNoBotao()">
             <img src="./img/img buscar.svg" alt="img-de-pesquisa">
         </button>
 
         <div class="Container-media">
-            <h2>Tempo em Rio de Janeiro</h2>
+            <h2 class="cidade">Tempo em Rio de Janeiro</h2>
             <p class="temp">28° C</p>
 
+            <div class="caixa-menor">
+            <img class="icone" src="./img/nuven previsao.png">
             <p class="descricao">Nuvens Dispensas</p>
+        </div>
             <p class="humidade">Humidade: 70%</p>
 
         </div>

@@ -21,7 +21,8 @@ body{
 
     width: 95%; /* Largura do elemento*/
     max-width: 420px; /* largura maxima*/
-    opacity: 0.8; /* transparencia do item */
+    opacity: 0.7
+    ; /* transparencia do item */
     padding: 20px;
     border-radius: 25px;
    
@@ -62,6 +63,11 @@ button img{
     margin-top: 30px;
 
 }
+.caixa-menor{
+    display: flex;
+    margin-top:30px ;
+    align-items: center;
+}
 
 h2{
     color: #ffffff;
@@ -76,7 +82,8 @@ h2{
 }
 .descricao{
     color: #ffffff;
-    margin: 30px 0  30px 0;
+    margin: 0 0  30px 0;
+    text-transform: capitalize; /* deixa aprimeira letra maiuscula */
 }
 .humidade{
     color: #ffffff;
