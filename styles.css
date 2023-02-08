@@ -16,13 +16,12 @@ body{
     
 }
 
-.Container-maior{
+.caixa-maior{
     background-color:#000000 ; /* trocar cor de fundo */
 
     width: 95%; /* Largura do elemento*/
     max-width: 420px; /* largura maxima*/
-    opacity: 0.7
-    ; /* transparencia do item */
+    opacity: 0.8; /* transparencia do item */
     padding: 20px;
     border-radius: 25px;
    
@@ -59,14 +58,16 @@ button img{
     height: 22px;
 }
 
-.Container-media{
+.caixa-media{
     margin-top: 30px;
 
 }
 .caixa-menor{
     display: flex;
-    margin-top:30px ;
     align-items: center;
+    margin: 30px 0 30px -13px;
+    
+
 }
 
 h2{
@@ -81,8 +82,7 @@ h2{
     margin-top: 30px;
 }
 .descricao{
-    color: #ffffff;
-    margin: 0 0  30px 0;
+    color: #ffffff;  
     text-transform: capitalize; /* deixa aprimeira letra maiuscula */
 }
 .humidade{
